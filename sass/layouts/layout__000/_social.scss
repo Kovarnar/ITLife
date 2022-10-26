@@ -1,0 +1,49 @@
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    * {
+        transition: all 0.5s ease;
+    }
+    .social__item {
+        width: 42px;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+main {
+    .social__item {
+        background-color: $blueColor;
+        .icon {
+            fill: $whiteColor;
+        }
+        &:hover {
+            background-color: $whiteColor;
+            .icon{
+                fill: $lightBlueColor;
+            }
+        }
+    }
+}
+.footer {
+    .social__item {
+        background-color: $whiteColor;
+        border: 1px solid $lightBlueColor;
+        .icon {
+            fill: $lightBlueColor;
+        }
+        &:hover {
+            background-color: $lightBlueColor;
+            .icon{
+                fill: $whiteColor;
+            }
+        }
+    }
+}

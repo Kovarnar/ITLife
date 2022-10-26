@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    a {
+        display: flex;
+        justify-content: center;
+        font-family: 'Lato', 'Arial', sans-serif;
+        font-weight: 600;
+        color: $mediumBlackColor;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: color .3s ease;
+        &:hover {
+            color: $lightBlueColor;
+        }
+    }
+}

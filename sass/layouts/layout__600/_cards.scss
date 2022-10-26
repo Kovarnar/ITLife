@@ -1,0 +1,8 @@
+.team-card {
+    grid-template-columns: repeat(2, auto); 
+    justify-content: space-around;
+}
+.team-card__top{
+    margin-bottom: 15px;
+}
+

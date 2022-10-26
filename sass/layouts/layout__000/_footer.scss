@@ -1,0 +1,27 @@
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    @media only screen and (min-width: 600px) {
+        padding: 30px 0;
+    }
+    @media only screen and (min-width: 1200px) {
+        padding: 40px 0;
+    }
+    .container {
+         > *:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+    .menu {
+        flex-direction: row;
+        .menu__item:not(:last-child){
+            margin-right: 30px;
+        }
+        a {
+            font-size: rem(11px);
+        }
+    }
+    .social {
+        justify-content: center;
+    }
+}

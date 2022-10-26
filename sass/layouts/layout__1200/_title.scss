@@ -1,0 +1,9 @@
+.team__title {
+    &::after {
+        content: '';
+        margin: 20px auto 40px;
+    }
+}
+.team__subtitle{
+    margin: 20px auto 60px;
+}

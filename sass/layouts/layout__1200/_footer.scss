@@ -1,0 +1,8 @@
+.footer {
+    padding: 40px 0;
+    .container {
+         > *:not(:last-child) {
+            margin-bottom: 40px;
+        }
+    }
+}
